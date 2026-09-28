@@ -96,7 +96,7 @@ aside h3 {
 
 /* Лого в менюто */
 .menu-item img {
-    width: 90px;
+    width: 40px;
     height: 36px;
     object-fit: contain;
     flex-shrink: 0;
