@@ -233,4 +233,35 @@ main {
         margin-left: 0;
         padding: 15px;
     }
+    .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    min-height: 50px;
+    padding: 7px 10px;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.menu-item img {
+    width: 90px;
+    height: 36px;
+
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.menu-item span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu-item:hover {
+    background: #f0f2f5;
+}
 }
