@@ -83,7 +83,7 @@ aside h3 {
 .menu-item {
     display: flex;
     align-items: center;
-/*  gap: 12px; */
+    gap: 6px; 
     min-height: 50px;
     padding: 7px 20px;
     color: var(--dark-color);
