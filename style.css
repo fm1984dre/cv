@@ -220,11 +220,21 @@ main {
         padding: 0 10px;
     }
     .menu-item {
-        padding: 8px 15px;
-        white-space: nowrap;
-        border-left: none;
-        border-bottom: 3px solid transparent;
-    }
+    padding: 8px 15px;
+    white-space: nowrap;
+    border-left: none;
+    border-bottom: 3px solid transparent;
+    min-height: 50px;
+}
+
+.menu-item img {
+    width: 70px;
+    height: 32px;
+}
+
+.menu-item span {
+    height: 32px;
+}
     .menu-item:hover, .menu-item.active {
         border-left-color: transparent;
         border-bottom-color: var(--primary-color);
