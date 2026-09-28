@@ -84,8 +84,8 @@ aside h3 {
     display: flex;
     align-items: center;
     gap: 6px; 
-    min-height: 50px;
-    padding: 7px 20px;
+    min-height: 30px;
+    padding: 5px 20px;
     color: var(--dark-color);
     text-decoration: none;
     font-weight: 600;
