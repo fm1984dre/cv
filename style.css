@@ -81,8 +81,13 @@ aside h3 {
 }
 
 .menu-item {
-    display: block;
-    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    min-height: 50px;
+    padding: 7px 20px;
+
     color: var(--dark-color);
     text-decoration: none;
     font-weight: 600;
@@ -91,7 +96,25 @@ aside h3 {
     cursor: pointer;
 }
 
-.menu-item:hover, .menu-item.active {
+/* Лого в менюто */
+.menu-item img {
+    width: 90px;
+    height: 36px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Името на производителя */
+.menu-item span {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu-item:hover,
+.menu-item.active {
     background-color: #fff5f5;
     color: var(--primary-color);
     border-left-color: var(--primary-color);
